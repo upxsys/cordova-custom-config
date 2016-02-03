@@ -26,7 +26,7 @@ var applyCustomConfig = (function(){
         "MainActivity" // Cordova >= 4.3.0
     ];
 
-    var xcconfigs = ["build.xcconfig", "build-extras.xcconfig", "build-debug.xcconfig", "build-release.xcconfig"];
+    var xcconfigs = ["build.xcconfig", "build-debug.xcconfig", "build-release.xcconfig"];
 
     /*  Global object that defines the available custom preferences for each platform.
      Maps a config.xml preference to a specific target file, parent element, and destination attribute or element
